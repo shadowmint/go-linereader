@@ -1,0 +1,30 @@
+{
+  "name": "go-linereader",
+  "version": "1.0.0",
+  "description": "linereader",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowmint/go-linereader.git"
+  },
+  "files": [
+    "index.js",
+    "scripts",
+    "src"
+  ],
+  "author": "douglas.linder@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadowmint/go-linereader/issues"
+  },
+  "homepage": "https://github.com/shadowmint/go-linereader",
+  "scripts": {
+    "test": "go test -v ./src/ntoolkit/...",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "go-assert": "github:shadowmint/go-assert#1.0.0",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
+  }
+}
